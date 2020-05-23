@@ -14,6 +14,10 @@
     margin-bottom: 1rem; 
   }
 
+  &--t-padding {
+    padding-top: 80px; 
+  }
+
   @mixin atMedium {
     flex-direction: row; 
 
@@ -21,15 +25,17 @@
       margin-bottom: 0; 
     }
 
+    
+    
     &--gutters > div {
-      padding-right: 65px; 
+      margin-right: 65px; 
 
       &-large {
-        padding-right: 100px; 
+        margin-right: 100px; 
       }
 
       &:last-child {
-        padding-right: 0;
+        margin-right: 0;
       }
     }
 
@@ -40,6 +46,14 @@
         padding-right: 0;
       }
     }
+
+    &--gutters-small  > div {
+      margin-right: 45px; 
+
+      &:last-child {
+        margin-right: 0; 
+      }
+    } 
 
     &__medium-4 {
       flex: 4;

@@ -24,6 +24,18 @@
     &--gutters > div {
       padding-right: 65px; 
 
+      &-large {
+        padding-right: 100px; 
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+    &--gutters-large > div {
+      padding-right: 100px;  
+
       &:last-child {
         padding-right: 0;
       }

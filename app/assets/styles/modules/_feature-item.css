@@ -1,0 +1,31 @@
+.feature-item {
+  padding-bottom: 2.5rem;
+  display: grid; 
+  column-gap: 1.5rem; 
+
+  @mixin atSmall {
+    grid-template-columns: max-content 1fr;
+  }
+
+  &__text {
+
+  }
+
+  &__icon {
+    justify-self: center;
+  }
+
+  &__title {
+    text-align: center; 
+    font-size: 1.6rem;
+    font-weight: 300; 
+    margin-bottom: .8rem;
+    margin-top: .7em; 
+
+    @mixin atSmall {
+      text-align: left; 
+      margin-top: 1em; 
+      font-size: 1.875rem;
+    }
+  }
+}

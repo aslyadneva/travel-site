@@ -9,6 +9,7 @@
   }
 
   &__text-content {
+    padding-top: 60px; 
     position: absolute;
     align-self: center;
     text-align: center;

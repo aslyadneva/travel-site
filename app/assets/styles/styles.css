@@ -6,6 +6,8 @@
 
 @import 'modules/_page-section';
 @import 'modules/_row';
+@import 'modules/_site-header'; 
+@import 'modules/_primary-nav'; 
 @import 'modules/_large-hero';
 @import 'modules/_btn';
 @import 'modules/_wrapper';

@@ -11,8 +11,14 @@
   }
 
   @mixin atMedium {
+    position: fixed; 
     padding: 10px 0;
     background-color: rgba($mainBlue, .3);
+
+    &--dark {
+      background-color: rgba(23, 51, 72, .85);
+    }
+
   }
 
 
@@ -30,9 +36,15 @@
     position: absolute; 
     background-color: $mainBlue;
     padding: 10px 25px; 
+    transition: transform .3s ease-out; 
 
     @mixin atMedium {
       padding: 25px 36px;
+      transform-origin: top;
+
+      .site-header--dark & {
+        transform: scale(.56)
+      }
     }
   }
 

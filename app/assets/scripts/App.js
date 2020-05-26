@@ -11,6 +11,7 @@ new RevealOnScroll(document.querySelectorAll('.feature-item'), 75);
 new RevealOnScroll(document.querySelectorAll('.testimonial'), 60); 
 let modal 
 
+
 // ONLY DOWNLOADING THE MODAL BUNDLE IF USER CLICKS 'GET IN TOUCH' --- CODE SPLITTING 
 document.querySelectorAll('.open-moodal').forEach(btn => btn.addEventListener('click', event => {
   event.preventDefault()
